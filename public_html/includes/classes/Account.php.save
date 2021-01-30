@@ -1,0 +1,116 @@
+<?php
+  class Account {
+	
+	private $con;	
+	private $errorArray;
+
+	public function __construct($con) {
+		$this->con = $con;
+		$this->errorArray = array();
+	}
+	
+	public function register($un, $fn, $sn, $em, $em2, $pw, $pw2){
+	 //validating user input
+        $this->validateUsername($un);
+        $this->validateFirstName($fn);
+        $this->validateSurname($sn);
+        $this->validateEmails($em, $em2);
+        $this->validatePasswords($pw, $pw2);
+
+
+		if(empty($this->errorArray)) {
+			//TODO Insert into db
+			return insertUserDetails($un, $fn, $sn, $em, $pw);
+		}
+		else {
+			return false;
+		}
+	}
+
+	public function getError($error) {
+		if(!in_array($error, $this->errorArray)) {
+			$error = "";
+		}
+		return "<span class='errorMessage'>$error</span>";
+	}
+
+	private function insertUserDetails($un, $fn, $sn, $em, $pw) {
+		$encryptedPw = md5($pw);
+		//$profilePic = "assets/images/profile-pics/default.png";
+		$profilePic = 'default Pic';
+		$date = date("Y-m-d");
+		
+		$result = mysqli_query($this->con, "INSERT INTO users VALUES ('', '$un', '$fn', '$sn', '$em', '$encryptedPw', '$date', '$profilePic')");
+		//echo $result;
+
+		return $result;
+	}
+	
+	private function validateUsername($un){
+		if(strlen($un) > 25 || strlen($un) < 5) {
+			array_push($this->errorArray, Constants::$usernameLn);
+			return;
+		}
+		//TODO: check if username exists 
+	}
+
+
+	private function validateFirstName($fn){
+		 if(strlen($fn) > 25 || strlen($fn) < 2) {
+                        array_push($this->errorArray, Constants::$firstNameLn);
+                        return;
+                }
+	}
+
+	private function validateSurname($sn){
+		 if(strlen($sn) > 25 || strlen($sn) < 2) {
+                        array_push($this->errorArray, Constants::$surnameLn);
+                        return;
+                }
+
+
+	}
+
+	private function validateEmails($em, $em2){
+		if($em != $em2){
+			array_push($this->errorArray, Constants::$emailMatch);
+			return;
+		}
+
+		if(!filter_var($em, FILTER_VALIDATE_EMAIL)){
+			array_push($this->errorArray, Constants::$emailInvalid);
+			return;
+
+			}
+
+			//TODO check if email exists
+
+		 
+	}
+
+
+	private function validatePasswords($pw, $pw2){
+		 if($pw != $pw2){
+                        array_push($this->errorArray, Constants::$passwordMatch);
+                        return;
+                }
+
+
+		//TODO Change this to only except strong passwords and hash passwords
+		if(preg_match('/[^A-Za-z0-9]/', $pw)){
+			array_push($this->errorArray, Constants::$passwordInvalid);
+			return;
+			}
+
+
+		if(strlen($pw) < 10 || strlen($pw) >25){
+			array_push($this->errorArray, Constants::$passwordLn);
+			return;
+			}
+	}
+  
+
+}
+
+?>
+
