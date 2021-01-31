@@ -19,6 +19,10 @@ function getValue($value){
 <head>
 	<title>Welcom to notSpotify</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="assets/js/register.js"></script>
 </head>
 <body>
 	<div id="background">
