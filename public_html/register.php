@@ -95,7 +95,7 @@ function getValue($value){
 							<button type="submit" name="registerButton">Sign Up</button>
 
 							<div class="hasAccountText">
-						<span id="hideLogin">Already have an account? Login here.</span>
+						<span id="hideRegister">Already have an account? Login here.</span>
 					</div>
 						</form>
 
