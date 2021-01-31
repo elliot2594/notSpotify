@@ -28,7 +28,7 @@ function getValue($value){
 
 	<script type="text/javascript"></script>
 	<?php
-		console.log("hello");
+		echo "running php";
 		//test test
 
 	if(isset($_POST['registerButton'])){
