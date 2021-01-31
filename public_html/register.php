@@ -25,6 +25,27 @@ function getValue($value){
 	<script src="assets/js/register.js"></script>
 </head>
 <body>
+	<?php
+		if(isset($_POST['registerButton'])){
+				echo '<scirpt>
+		$(document).ready(function() {
+		$("#loginForm").hide();
+		$("#registerForm").show();
+	});
+	</scirpt>'
+		}
+
+		else{
+							echo '<scirpt>
+		$(document).ready(function() {
+		$("#loginForm").show();
+		$("#registerForm").hide();
+	});
+	</scirpt>'
+
+		}
+
+	?>
 	<div id="background">
 		<div id="loginContainer">
 			<div id="inputContainer">
