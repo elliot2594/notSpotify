@@ -36,7 +36,7 @@ function getValue($value){
 	if(isset($_POST['registerButton'])){
 			echo "register pressed";
 		}
-		
+
 
 
 /*				echo '<scirpt type="javascript">
@@ -58,7 +58,7 @@ function getValue($value){
 
 	*/
 
-		}
+		
 
 	?>
 	<div id="background">
