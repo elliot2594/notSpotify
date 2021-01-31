@@ -30,7 +30,7 @@ function getValue($value){
 	
 	if(isset($_POST['registerButton'])){
 			//echo "register pressed";
-			echo '<script>$document.ready(function() {
+			echo '<script>$(document).ready(function() {
 				$("#loginForm").hide();
 				$("#registerForm").show();
 			});
@@ -38,7 +38,7 @@ function getValue($value){
 		}
 
 		else{
-			echo '<script>$document.ready(function() {
+			echo '<script>$(document).ready(function() {
 				$("#loginForm").show();
 				$("#registerForm").hide();
 			});
