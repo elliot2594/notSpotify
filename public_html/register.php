@@ -26,19 +26,23 @@ function getValue($value){
 </head>
 <body>
 
-	<script type="text/javascript"></script>
 	<?php
-		echo "running php";
-
-
-		//test test
-
+	
 	if(isset($_POST['registerButton'])){
-			echo "register pressed";
+			//echo "register pressed";
+			echo '<script>$document.ready(function() {
+				$("#loginForm").hide();
+				$("#registerForm").show();
+			});
+			</script>';
 		}
 
 		else{
-			echo "<script>console.log('hello js');</script>";
+			echo '<script>$document.ready(function() {
+				$("#loginForm").show();
+				$("#registerForm").hide();
+			});
+			</script>';
 		}
 
 
