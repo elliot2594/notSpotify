@@ -3,12 +3,8 @@ $(document).ready(function(){
 		$("#loginForm").hide();
 		$("#registerForm").show();
 	});
-	console.log("js");
 	$("#hideRegister").click(function(){
 		$("#registerForm").hide();
 		$("#loginForm").show();
-
 	});
-
-
 });

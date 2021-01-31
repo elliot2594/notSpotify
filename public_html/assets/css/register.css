@@ -113,10 +113,7 @@ body{
 	text-align: center;
 }
 
+#loginForm
 #registerForm{
-	display: none;
-}
-
-#loginForm{
 	display: none;
 }
