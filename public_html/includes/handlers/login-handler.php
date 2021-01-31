@@ -10,6 +10,7 @@ if(isset($_POST['loginButton'])) {
 
 	if($result == true){
 		//header("Location: index.php");
+		$_SESSION['userLoggedIn'] = $username;
 		echo "login worked";
 	}
 	
