@@ -15,12 +15,6 @@ function cleanPassword($inputText) {
 }
 
 
-if(isset($_POST['loginPassword'], $_POST['loginUsername'])) {
-//	echo "Login button was pressed";
-//	$loginUsername =
-}
-
-
 if(isset($_POST['registerButton'])){
 
 	//setting user input
