@@ -114,7 +114,7 @@ body{
 	cursor: pointer;
 }
 
-#loginForm
+#loginForm,
 #registerForm{
 	display: none;
 }
