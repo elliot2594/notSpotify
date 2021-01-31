@@ -38,7 +38,7 @@ function getValue($value){
 		}
 
 		else{
-			echo "not pressed";
+			echo "<script>console.log('hello');</script>";
 		}
 
 
