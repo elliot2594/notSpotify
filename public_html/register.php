@@ -32,7 +32,9 @@ function getValue($value){
 		$("#loginForm").hide();
 		$("#registerForm").show();
 	});
-	</scirpt>';
+	</scirpt>'; 
+
+console.log("js 2");
 		}
 
 		else{
