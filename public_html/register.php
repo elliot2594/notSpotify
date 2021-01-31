@@ -37,6 +37,10 @@ function getValue($value){
 			echo "register pressed";
 		}
 
+		else{
+			echo "not pressed";
+		}
+
 
 
 /*				echo '<scirpt type="javascript">
