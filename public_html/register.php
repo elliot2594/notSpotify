@@ -38,7 +38,7 @@ function getValue($value){
 		}
 
 		else{
-			echo "<script>console.log('hello');</script>";
+			echo "<script>console.log('hello js');</script>";
 		}
 
 
