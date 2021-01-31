@@ -120,6 +120,16 @@ function getValue($value){
 						</form>
 
 					</div>
+
+					<div id ="loginText">
+						<h1>Average Music, Right now</h1>
+						<h2>Listen to hardly any songs for free</h2>
+						<ul>
+								<li>Hear some songs</li>
+								<li>Create playlists</li>
+								<li>No artists to follow</li>
+						</ul>
+					</div>
 				</div>
 			</div>	
 
