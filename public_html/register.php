@@ -22,6 +22,7 @@ function getValue($value){
 </head>
 <body>
 	<div id="background">
+		<div id="loginContainer">
 			<div id="inputContainer">
 				<form id="loginForm" action="register.php" method="POST">
 					<h2>Login to your account</h2>
@@ -75,7 +76,7 @@ function getValue($value){
 						echo $account->getError(Constants::$passwordInvalid);?>
 						<label for="password">Password</label>
 						<input id="password" name="password" type="password" placeholder="Password" required>
-						<p>
+						</p>
 
 							<p>
 
@@ -87,7 +88,7 @@ function getValue($value){
 							<button type="submit" name="registerButton">Sign Up</button>
 						</form>
 
-					
+					</div>
 				</div>
 			</div>	
 
