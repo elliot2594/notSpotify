@@ -29,7 +29,7 @@ function getValue($value){
 	<script type="text/javascript"></script>
 	<?php
 
-//		if(isset($_POST['registerButton'])){
+	if(isset($_POST['registerButton'])){
 				echo '<scirpt type="javascript">
 		$(document).ready(function() {
 		$("#loginForm").hide();
