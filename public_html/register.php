@@ -32,16 +32,16 @@ function getValue($value){
 		$("#loginForm").hide();
 		$("#registerForm").show();
 	});
-	</scirpt>'
+	</scirpt>';
 		}
 
 		else{
-							echo '<scirpt>
+				echo '<scirpt>
 		$(document).ready(function() {
 		$("#loginForm").show();
 		$("#registerForm").hide();
 	});
-	</scirpt>'
+	</scirpt>';
 
 		}
 
