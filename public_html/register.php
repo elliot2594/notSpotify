@@ -22,8 +22,6 @@ function getValue($value){
 </head>
 <body>
 	<div id="background">
-
-		<div id="loginContainer">
 			<div id="inputContainer">
 				<form id="loginForm" action="register.php" method="POST">
 					<h2>Login to your account</h2>
@@ -31,13 +29,11 @@ function getValue($value){
 						<?php echo $account->getError(Constants::$userNotFound);?>
 						<label for="loginUsername">Username</label>
 						<input id="loginUsername" name="loginUsername" type="text" placeholder="Enter Username" required>
-
 					</p>
 					<p>
 						<label for="loginPassword">Password</label>
 						<input id="loginPassword" name="loginPassword" type="password">
 					</p>
-					
 					<button type="submit" name="loginButton">Log in</button>
 				</form>
 
@@ -91,7 +87,7 @@ function getValue($value){
 							<button type="submit" name="registerButton">Sign Up</button>
 						</form>
 
-					</div>
+					
 				</div>
 			</div>	
 
