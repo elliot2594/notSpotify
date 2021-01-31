@@ -113,3 +113,10 @@ body{
 	text-align: center;
 }
 
+#registerForm{
+	display: none;
+}
+
+#loginForm{
+	display: none;
+}
