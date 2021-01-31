@@ -43,31 +43,7 @@ function getValue($value){
 				$("#registerForm").hide();
 			});
 			</script>';
-		}
-
-
-
-/*				echo '<scirpt type="javascript">
-		$(document).ready(function() {
-		$("#loginForm").hide();
-		$("#registerForm").show();
-	});
-	</scirpt>'; 
-
-		}
-
-		else{
-				echo '<scirpt type="javascript">
-		$(document).ready(function() {
-		$("#loginForm").show();
-		$("#registerForm").hide();
-	});
-	</scirpt>';
-
-	*/
-
-		
-
+		}		
 	?>
 	<div id="background">
 		<div id="loginContainer">
