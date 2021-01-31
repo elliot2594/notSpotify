@@ -25,20 +25,22 @@ function getValue($value){
 	<script src="assets/js/register.js"></script>
 </head>
 <body>
+
+	<script type="text/javascript"></script>
 	<?php
-		if(isset($_POST['registerButton'])){
-				echo '<scirpt>
+
+//		if(isset($_POST['registerButton'])){
+				echo '<scirpt type="javascript">
 		$(document).ready(function() {
 		$("#loginForm").hide();
 		$("#registerForm").show();
 	});
 	</scirpt>'; 
 
-console.log("js 2");
 		}
 
 		else{
-				echo '<scirpt>
+				echo '<scirpt type="javascript">
 		$(document).ready(function() {
 		$("#loginForm").show();
 		$("#registerForm").hide();
