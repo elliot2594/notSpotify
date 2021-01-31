@@ -36,6 +36,9 @@ function getValue($value){
 						<input id="loginPassword" name="loginPassword" type="password">
 					</p>
 					<button type="submit" name="loginButton">Log in</button>
+					<div class="hasAccountText">
+						<span id="hideLogin">Dont have an account yet? Signup here.</span>
+					</div>
 				</form>
 
 				<form id="registerForm" action="register.php" method="POST">
@@ -63,12 +66,12 @@ function getValue($value){
 						echo $account->getError(Constants::$emailInvalid);
 						echo $account->getError(Constants::$emailExists);?>
 						<label for="email">Email Address</label>
-						<input id-"email" name="email" type="email" placeholder="Email" value="<?php getValue('email');?>" required>
+						<input id="email" name="email" type="email" placeholder="Email" value="<?php getValue('email');?>" required>
 					</p>
 
 					<p>
 						<label for="email2">Confirm Email</label>
-						<input id-"email2" name="email2" type="email" placeholder="Confirm Email" value="<?php getValue('email2');?>" required>
+						<input id="email2" name="email2" type="email" placeholder="Confirm Email" value="<?php getValue('email2');?>" required>
 					</p>
 					<p>
 
@@ -80,12 +83,16 @@ function getValue($value){
 
 							<p>
 
-								<label for+"password2">Confirm Password</label>
+								<label for="password2">Confirm Password</label>
 								<input id="password2" name="password2" type="password" placeholder="Confirm Password" required>
 							</p>
 
 
 							<button type="submit" name="registerButton">Sign Up</button>
+
+							<div class="hasAccountText">
+						<span id="hideLogin">Already have an account? Login here.</span>
+					</div>
 						</form>
 
 					</div>
