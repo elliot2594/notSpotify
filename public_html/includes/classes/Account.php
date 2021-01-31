@@ -14,7 +14,7 @@ class Account {
 		$pw = md5($pw);
 		$query = mysqli_query($this->con, "SELECT * FROM users WHERE username = '$un' AND password = '$pw'");
 
-		if(mysqli_query($query) == 1){
+		if(mysqli_num_rows($query) == 1){
 			return true;
 		}
 
@@ -69,7 +69,7 @@ class Account {
 		echo "validating username";
 		if(strlen($un) > 25 || strlen($un) < 5) {
 			array_push($this->errorArray, Constants::$usernameLn);
-			
+
 			return;
 		}
 		//TODO: check if username exists
@@ -142,7 +142,7 @@ class Account {
 		}
 		//echo "password validated"; 
 	}
-	
+
 
 }
 
