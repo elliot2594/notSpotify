@@ -29,10 +29,17 @@ function getValue($value){
 	<script type="text/javascript"></script>
 	<?php
 		echo "running php";
+
+
 		//test test
 
 	if(isset($_POST['registerButton'])){
-				echo '<scirpt type="javascript">
+			echo "register pressed";
+		}
+		
+
+
+/*				echo '<scirpt type="javascript">
 		$(document).ready(function() {
 		$("#loginForm").hide();
 		$("#registerForm").show();
@@ -48,6 +55,8 @@ function getValue($value){
 		$("#registerForm").hide();
 	});
 	</scirpt>';
+
+	*/
 
 		}
 
