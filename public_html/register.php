@@ -130,6 +130,7 @@ function getValue($value){
 								<li>No artists to follow</li>
 						</ul>
 					</div>
+					
 				</div>
 			</div>	
 

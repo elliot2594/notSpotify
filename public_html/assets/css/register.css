@@ -125,7 +125,7 @@ body{
 	display: table-cell;
 }
 
-#loginText h1{
+#loginText h1 {
 	color: #07d159;
 	font: 60px;
 	font-weight: bold;
@@ -145,6 +145,4 @@ body{
 font-size: 20px;
 list-style-type: none;
 padding: 15px;
-
-
 }
