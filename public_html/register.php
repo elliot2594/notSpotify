@@ -53,7 +53,7 @@ function getValue($value){
 					<p>
 						<?php echo $account->getError(Constants::$userNotFound);?>
 						<label for="loginUsername">Username</label>
-						<input id="loginUsername" name="loginUsername" type="text" placeholder="Enter Username" required>
+						<input id="loginUsername" name="loginUsername" type="text" placeholder="Enter Username" value="<?php getValue("loginUsername")?>" required>
 					</p>
 					<p>
 						<label for="loginPassword">Password</label>
