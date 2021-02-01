@@ -53,3 +53,9 @@ height: 100%
 	height: 20px;
 }
 
+.controlButton.play img,
+.controlButton.pause {
+	width: 32px
+	height: 32px;
+}
+
