@@ -26,7 +26,7 @@ else {
 
 				<div class="content">
 				<span class="albumLink">
-					<img src="assets/images/album-covers/dsotm.jpg">
+					<img src="assets/images/album-covers/dsotm.jpg" class="albumArtwork">
 
 				</span>
 					
