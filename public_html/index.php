@@ -92,7 +92,7 @@ else {
 			<div id="nowPlayingRight">
 
 				<div class="volumeBar"> 
-					<button class="controlButton volume" title="Volume button" src="assets/images/icons/volume.png"></button>
+					<button class="controlButton volume" title="Volume button"> <img src="assets/images/icons/volume.png" alt="Volume"></button>
 
 				</div>
 
