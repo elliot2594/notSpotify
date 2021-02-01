@@ -175,7 +175,7 @@ height: 100%
 
 .navBar .group {
 	padding: 10px;
-	border-top: 1pc solid #a0a0a0;
+	border-top: 1px solid #a0a0a0;
 }
 
 .navBar .navItem {
@@ -184,5 +184,5 @@ height: 100%
 	font-weight: 700;
 	display: block;
 	letter-spacing: 1px;
-	
+
 }
