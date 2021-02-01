@@ -24,11 +24,18 @@ height: 100%
 	box-sizing: border-box;
 }
 
-#nowPlayingLeft,
-#nowPlayingRight {
+#nowPlayingLeft {
 	width: 30%;
 	min-width: 180px;
 }
+
+#nowPlayingRight {
+	width: 30%;
+	min-width: 180px;
+	position: relative;
+	margin-top: 15px;
+}
+
 
 #nowPlayingMiddle {
 	width: 40%;
@@ -138,5 +145,5 @@ height: 100%
 
 .volumeBar .progressBar {
 	width: 125px;
-	
+
 }
