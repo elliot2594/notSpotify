@@ -24,6 +24,16 @@ else {
 		<div id="nowPlayingBar"> 
 			<div id="nowPlayingLeft" >
 
+				<div class="content">
+				<span class="albumLink">
+					<img src="assets/images/album-covers/dsotm.jpg">
+
+				</span>
+					
+
+
+				</div>
+
 			</div>
 
 			<div id="nowplayingMiddle">
