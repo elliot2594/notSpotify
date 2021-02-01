@@ -34,6 +34,34 @@ else {
 							<button class="controlButton shuffle" title="Shuffle button">		
 							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
 
+
+							</button>
+
+							<button class="controlButton previous" title="Shuffle button">		
+							<img src="assets/images/icons/previous.png" alt="Shuffle">
+							</button>
+
+							<button class="controlButton play" title="Shuffle button">		
+							<img src="assets/images/icons/play.png" alt="Shuffle">
+
+						
+							</button>
+
+							<button class="controlButton next" title="Shuffle button">		
+							<img src="assets/images/icons/next.png" alt="Shuffle">
+
+						
+							</button>
+
+							<button class="controlButton repeat" title="Shuffle button">		
+							<img src="assets/images/icons/repeat.png" alt="Shuffle">
+
+						
+							</button>
+
+							<button class="controlButton playlist" title="Shuffle button">		
+							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
+
 						
 							</button>
 						</div>
