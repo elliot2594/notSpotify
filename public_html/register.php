@@ -122,10 +122,10 @@ function getValue($value){
 					</div>
 
 					<div id ="loginText">
-						<h1>Great Music, Coming soon</h1>
-						<h2>Listen to hardly any songs for free</h2>
+						<h1>Great Music, Coming Soon</h1>
+						<h2>Listen to Hardly Any Songs For Free</h2>
 						<ul>
-								<li>Hear a select few songs</li>
+								<li>Hear a Select Few Songs</li>
 								<li>Create playlists with those few songs</li>
 								<li>Artists to follow</li>
 						</ul>
