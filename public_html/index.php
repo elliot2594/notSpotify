@@ -45,8 +45,8 @@ else {
 							<img src="assets/images/icons/play.png" alt="Play">
 						</button>
 
-						<button class="controlButton pause" title="Pause button">		
-							<img src="assets/images/icons/play.png" alt="Pause" style="display: none;">
+						<button class="controlButton pause" title="Pause button" style="display: none;">		
+							<img src="assets/images/icons/pause.png" alt="Pause" >
 						</button>
 
 						<button class="controlButton next" title="Next button">		
@@ -60,6 +60,14 @@ else {
 						<button class="controlButton playlist" title="Playlist button">		
 							<img src="assets/images/icons/shuffle.png" alt="Playlist">
 						</button>
+					</div>
+
+					<div class="playBackBar"> 
+
+							<span class="progressTime current">0.00</span>
+							<div class="progressBar"></div>
+							<span class="progressTime remaining">0.00</span>
+
 					</div>
 
 				</div>
