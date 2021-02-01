@@ -131,11 +131,12 @@ height: 100%
 }
 
 .volumeBar {
-	width: 100px;
+	width: 180px;
 	position: absolute;
 	right: 0;
 }
 
 .volumeBar .progressBar {
 	width: 125px;
+	
 }
