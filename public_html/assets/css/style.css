@@ -180,9 +180,16 @@ height: 100%
 
 .navBar .navItem {
 	padding: 7px;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 	display: block;
 	letter-spacing: 1px;
+
+}
+
+.navItemLink{
+	padding: 7px;
+	text-decoration: none;
+	color: #a0a0a0;
 
 }
