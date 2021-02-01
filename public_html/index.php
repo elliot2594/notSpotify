@@ -31,8 +31,10 @@ else {
 					<div class="content playerControls">
 						
 						<div class="buttons">
-							<button>
-							<img src="assets/images/icons/shuffle.png">
+							<button class="controlButton shuffle" title="Shuffle button">		
+							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
+
+						
 							</button>
 						</div>
 

@@ -40,6 +40,16 @@ height: 100%
 .playerControls .buttons  {
 	display: table;
 	margin: 0 auto;
+}
 
+.controlButton {
+	background-color: transparent;
+	border: none;
+	vertical-align: middle;
+}
+
+.controlButton img {
+	width: 20px;
+	height: 20px;
 }
 
