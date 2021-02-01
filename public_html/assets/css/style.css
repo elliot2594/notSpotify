@@ -33,7 +33,7 @@ height: 100%
 	width: 30%;
 	min-width: 180px;
 	position: relative;
-	margin-top: 15px;
+	margin-top: 15px;s
 }
 
 
@@ -146,4 +146,9 @@ height: 100%
 .volumeBar .progressBar {
 	width: 125px;
 
+}
+
+#topContainer {
+	min-height: 100%
+	width: 100%;
 }
