@@ -15,65 +15,61 @@ else {
 <head>
 	<title>Not Spotify!</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
+</head>
 
 
-	<body>
-		
-		<div id="nowPlayingBarContainer"> 
-			<div id="nowPlayingBar"> 
-				<div id="nowPlayingLeft" >
-					
-				</div>
+<body>
 
-				<div id="nowplayingMiddle">
+	<div id="nowPlayingBarContainer"> 
+		<div id="nowPlayingBar"> 
+			<div id="nowPlayingLeft" >
 
-					<div class="content playerControls">
-						
-						<div class="buttons">
-							<button class="controlButton shuffle" title="Shuffle button">		
+			</div>
+
+			<div id="nowplayingMiddle">
+
+				<div class="content playerControls">
+
+					<div class="buttons">
+						<button class="controlButton shuffle" title="Shuffle button">		
 							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
 
 
-							</button>
+						</button>
 
-							<button class="controlButton previous" title="Shuffle button">		
-							<img src="assets/images/icons/previous.png" alt="Shuffle">
-							</button>
+						<button class="controlButton previous" title="previous button">		
+							<img src="assets/images/icons/previous.png" alt="Previous">
+						</button>
 
-							<button class="controlButton play" title="Shuffle button">		
-							<img src="assets/images/icons/play.png" alt="Shuffle">
+						<button class="controlButton play" title="Play button">		
+							<img src="assets/images/icons/play.png" alt="Play">
+						</button>
 
-						
-							</button>
+						<button class="controlButton pause" title="Pause button">		
+							<img src="assets/images/icons/play.png" alt="Pause" style="display: none;">
+						</button>
 
-							<button class="controlButton next" title="Shuffle button">		
-							<img src="assets/images/icons/next.png" alt="Shuffle">
+						<button class="controlButton next" title="Next button">		
+							<img src="assets/images/icons/next.png" alt="Next">
+						</button>
 
-						
-							</button>
+						<button class="controlButton repeat" title="Repeat button">		
+							<img src="assets/images/icons/repeat.png" alt="Repeat">							
+						</button>
 
-							<button class="controlButton repeat" title="Shuffle button">		
-							<img src="assets/images/icons/repeat.png" alt="Shuffle">
-
-						
-							</button>
-
-							<button class="controlButton playlist" title="Shuffle button">		
-							<img src="assets/images/icons/shuffle.png" alt="Shuffle">
-
-						
-							</button>
-						</div>
-
+						<button class="controlButton playlist" title="Playlist button">		
+							<img src="assets/images/icons/shuffle.png" alt="Playlist">
+						</button>
 					</div>
-					
+
 				</div>
 
-				<div id="nowPlayingRight">
-					
-				</div>
+			</div>
+
+			<div id="nowPlayingRight">
+
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
 </html>
