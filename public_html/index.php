@@ -91,6 +91,11 @@ else {
 
 			<div id="nowPlayingRight">
 
+				<div class="volumeBar"> 
+					<button class="controlButton volume" title="Volume button" src="assets/images/icons/volume.png"></button>
+
+				</div>
+
 			</div>
 		</div>
 	</div>
