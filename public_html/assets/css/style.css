@@ -55,7 +55,7 @@ height: 100%
 
 .controlButton.play img,
 .controlButton.pause img {
-	width: 32px
+	width: 32px;
 	height: 32px;
 }
 
