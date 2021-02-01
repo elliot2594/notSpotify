@@ -21,13 +21,29 @@ else {
 	<body>
 		
 		<div id="nowPlayingBarContainer"> 
-			<div id="nowPlayingBar"> </div>
+			<div id="nowPlayingBar"> 
+				<div id="nowPlayingLeft" >
+					
+				</div>
 
+				<div id="nowplayingMiddle">
 
+					<div class="content playerControls">
+						
+						<div class="buttons">
+							<button>
+							<img src="assets/images/icons/shuffle.png">
+							</button>
+						</div>
+
+					</div>
+					
+				</div>
+
+				<div id="nowPlayingRight">
+					
+				</div>
+			</div>
 		</div>
-
-
-
 	</body>
-
-	</html>
+</html>
