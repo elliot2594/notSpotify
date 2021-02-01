@@ -26,10 +26,10 @@ else {
 				</span>
 					<div class="trackInfo">
 						<span class="trackName">
-							<span>Test Track Name</span><
+							<span>Test Track Name</span>
 						</span>
 						<span class="artistName">
-							<span>Test Artist Name</span><
+							<span>Test Artist Name</span>
 						</span>
 					</div>
 				</div>
