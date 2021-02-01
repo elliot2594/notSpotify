@@ -161,3 +161,14 @@ height: 100%
 	top: 0;
 	left: 0;
 }
+
+.navBar {
+	display: flex;
+	padding: 25px;
+	flex-direction: column;
+	ms-flex-direction: column; 
+}
+
+.navBar .logo img {
+	width: 32px;
+}

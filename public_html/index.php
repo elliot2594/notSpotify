@@ -25,7 +25,6 @@ else {
 					<a href="index.php" class="logo">
 						<img src="assets/images/logo.png">
 					</a>
-
 				</nav>
 				
 
