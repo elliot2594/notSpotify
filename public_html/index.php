@@ -16,24 +16,23 @@ else {
 	<title>Not Spotify!</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
-
 <body>
-
 	<div id="nowPlayingBarContainer"> 
 		<div id="nowPlayingBar"> 
 			<div id="nowPlayingLeft" >
-
 				<div class="content">
 				<span class="albumLink">
 					<img src="assets/images/album-covers/dsotm.jpg" class="albumArtwork">
-
 				</span>
-					
-
-
+					<div class="trackInfo">
+						<span class="trackName">
+							<span>Test Track Name</span><
+						</span>
+						<span class="artistName">
+							<span>Test Artist Name</span><
+						</span>
+					</div>
 				</div>
-
 			</div>
 
 			<div id="nowplayingMiddle">
